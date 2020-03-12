@@ -41,7 +41,7 @@ Every page that is rendered, whether it's a product details page, a department p
 
 ## The createInput method
 
-When a page is loaded, a data action can be called by using the **createInput** method. The following example shows the sample code that is created in the TypeScript file for a data action by using the **yarn d365 add-data-action DATA\_ACTION\_NAME** command-line interface (CLI) command.
+When a page is loaded, a data action can be called by using the **createInput** method. The following example shows the sample code that is created in the TypeScript file for a data action by using the **yarn msdyn365 add-data-action DATA\_ACTION\_NAME** command-line interface (CLI) command.
 
 ```typescript
 const createInput = (args: Msdyn365.ICreateActionContext): Msdyn365.IActionInput => {
